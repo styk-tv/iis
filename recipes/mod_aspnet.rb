@@ -24,3 +24,18 @@ webpi_product "ASPNET" do
   accept_eula node['iis']['accept_eula']
   action :install
 end
+
+#windows_feature "IIS-NetFxExtensibility45" do
+#  action :install
+#end
+
+#windows_feature "IIS-ASPNET45" do
+#  action :install
+#end
+
+
+#IIS-ISAPIFilter
+#IIS-ISAPIExtensions
+#NetFx4Extended-ASPNET45
+#IIS-NetFxExtensibility45
+#IIS-ASPNET45
